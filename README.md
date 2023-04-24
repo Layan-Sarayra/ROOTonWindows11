@@ -13,7 +13,11 @@ Assuming that ROOT v6-24-00, Ubuntu 18.04 and xming are already installed.
 7. run xming THEN ubuntu
 8. (make sure ROOT is working properly)
 9. copy and paste this line in terminal:
-    `export DISPLAY="`sed -n 's/nameserver //p' /etc/resolv.conf`:0"`
-10. test it works now by simply typing 
-    `firefox` 
-    in terminal
+    ```
+    export DISPLAY="`sed -n 's/nameserver //p' /etc/resolv.conf`:0"
+    ```
+10. test it works now by simply typing in terminal
+    ```
+    firefox
+    ``` 
+  
